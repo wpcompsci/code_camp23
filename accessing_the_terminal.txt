@@ -1,0 +1,6 @@
+Open the file: WinPython Terminal
+
+In the terminal type (press enter after each line):
+cd .. 
+cd notebooks
+python the_name_of_your_file.py
