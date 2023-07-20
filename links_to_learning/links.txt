@@ -1,0 +1,7 @@
+BOOKS/VIDEOS
+https://inventwithpython.com/
+https://www.youtube.com/@TechWithTim
+
+
+ADVANCED
+https://rogueliketutorials.com/tutorials/tcod/v2/
