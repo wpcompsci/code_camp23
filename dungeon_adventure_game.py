@@ -166,6 +166,11 @@ def print_room():
     if rooms[player['location']]['battle'] is True:
         # Start a battle with an enemy
         battle(player, enemies)
+    # If the player is in the exit room
+    if rooms[player['location']]['name'] == 'Exit':
+        # Print a message to inform the player they escaped and exit the game
+        print('You have escaped.')
+        exit()
     # Ask the player what they want to do (move or take)
     action = input('\nWhat do you want to do? (move, take) ')
     # If the player wants to move
@@ -200,7 +205,7 @@ def print_room():
         print('I do not understand.')
 
     # If the player is in the exit room
-    if rooms[player['location']] == 'room7':
+    if rooms[player['location']]['name'] == 'Exit':
         # Print a message to inform the player they escaped and exit the game
         print('You have escaped.')
         exit()
